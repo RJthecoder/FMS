@@ -1,0 +1,19 @@
+[
+    {
+      "label": "Petrol",
+      "value": 489044
+    },
+    {
+      "label": "Desiel",
+      "value": 450000
+    },
+    {
+        "label": "CNG",
+        "value": 255000
+      },
+      {
+        "label": "LPG",
+        "value": 155000
+      }
+    
+  ]

@@ -1,0 +1,57 @@
+.App {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    background-color: #ddd;
+  }
+  
+  .dataCard {
+    background-color: #efefef;
+    border-radius: 0.5em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+  }
+  
+  .revenueCard {
+    width: 97%;
+    height: 15rem;
+  }
+  
+  .customerCard {
+    width: 50%;
+    height: 20rem;
+  }
+  
+  .categoryCard {
+    width: 45%;
+    height: 20rem;
+  }
+  
+  .loaderDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+  }
+
+  @media screen and (min-width: 600px) and (max-width:800px){
+  
+    .loaderDiv{
+      display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width:800px){
+  
+    .tableDiv{
+      overflow-x: scroll;
+      max-height: 70vh;
+    }
+  }

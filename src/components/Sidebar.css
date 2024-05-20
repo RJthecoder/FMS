@@ -1,0 +1,36 @@
+/* Styles for desktop viewport (width >= 640px) */
+@media (min-width: 640px) {
+    .sidebar {
+      flex: 1;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid #e2e8f0;
+      background-color: white;
+      height: 100vh;
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+  
+    .sidebar.closed {
+      opacity: 0;
+    }
+  }
+  
+  /* Styles for mobile viewport (width < 640px) */
+  @media (max-width: 639px) {
+    .sidebar {
+      position: absolute;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid #e2e8f0;
+      background-color: white;
+      height: 100vh;
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+    }
+  
+    .sidebar.closed {
+      opacity: 0;
+    }
+  }

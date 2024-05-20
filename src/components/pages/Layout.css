@@ -1,0 +1,19 @@
+.large-viewport-layout {
+    display: none; /* Hide by default */
+  }
+  
+  @media only screen and (min-width: 640px) {
+    .large-viewport-layout {
+      display: block; /* Show for viewports larger than 640px */
+    }
+  }
+  
+  .small-viewport-layout {
+    display: none; /* Hide by default */
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 639px) {
+    .small-viewport-layout {
+      display: block; /* Show for viewports smaller than 640px */
+    }
+  }
